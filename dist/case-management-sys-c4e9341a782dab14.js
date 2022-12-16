@@ -581,12 +581,12 @@ function getImports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper5148 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 258, __wbg_adapter_16);
+    imports.wbg.__wbindgen_closure_wrapper5122 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 254, __wbg_adapter_16);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper5308 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 271, __wbg_adapter_19);
+    imports.wbg.__wbindgen_closure_wrapper5282 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 267, __wbg_adapter_19);
         return addHeapObject(ret);
     };
 
@@ -624,7 +624,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('case-management-sys-e6c846c2457923b6_bg.wasm', import.meta.url);
+        input = new URL('case-management-sys-c4e9341a782dab14_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
